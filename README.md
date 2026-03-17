@@ -1,10 +1,10 @@
 # Ex.No.9 Exploration of Prompting Techniques for Video Generation
 
-# Date:
-# Reg. No.:
+# Date:17/03/2026
+# Reg. No.:212223220091
 
 # Aim:
-To demonstrate the ability of text-to-Video generation tools to reproduce an existing Video by crafting precise prompts. The goal is to identify key elements within the Video and use these details to generate an Video as close as possible to the original.
+To demonstrate the ability of text-to-video generation tools to reproduce an existing video by crafting precise prompts. The goal is to identify key elements within the video and use these details to generate a video as close as possible to the original.
 ## Procedure:
 1.	Analyze the Generated Video:
 ○	Examine the Video carefully, noting key elements such as:
@@ -15,16 +15,18 @@ To demonstrate the ability of text-to-Video generation tools to reproduce an exi
 ■	Background (e.g., outdoor, indoor, simple, detailed)
 ■	Composition (e.g., focal points, perspective)
 ■	Style (e.g., realistic, artistic, cartoonish)
-2.	Create the Basic Prompt:
-○	Write an initial, simple description of the Video. For example, if the Video shows a landscape, the prompt could be "A serene landscape with mountains and a river."
+2.	Create the Basic Prompt
+Write an initial, simple description of the video.
+Example:
+"A landscape video with mountains and a river"
 3.	Refine the Prompt with More Detail:
-○	Add specific details such as colors, mood, and time of day. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, and a few trees along the shore."
+Add specifics such as colors, motion, mood, and time of day.
 4.	Identify Style and Artistic Influences:
-○	If the Video has a particular style (e.g., impressionist painting, realistic photography, minimalistic), include that in the prompt. For example: "A serene landscape in the style of a watercolor painting with soft, blended colors."
+Include style such as cinematic, realistic, slow-motion, or animated.
 5.	Adjust and Fine-tune:
-○	Refine the prompt further by adding specific instructions about elements like textures, weather conditions, or any other distinctive features in the Video. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, a few trees along the shore, and soft, pastel tones in the clouds."
+Add details like camera movement, weather, lighting effects, or motion dynamics.
 6.	Generate the Video:
-○	Use the crafted prompt to generate the Video in a text-to-Video model (e.g., DALL·E, Stable Diffusion, MidJourney).
+Use tools like DALL·E, Stable Diffusion, or MidJourney (video-supported versions).
 7.	Compare the Generated Video with the Original:
 ○	Assess how closely the generated Video matches the original in terms of colors, composition, subject, and style. Note the differences and refine the prompt if necessary.
 Tools/LLMs for Video Generation:
@@ -35,19 +37,101 @@ Tools/LLMs for Video Generation:
 ●	MidJourney: A popular AI tool for generating visually striking and creative Videos based on text descriptions.
 ○	Website: MidJourney
 
-# Instructions:
-1.	Examine the Given Video: Study the Video to understand its key features—objects, colors, lighting, composition, and any stylistic choices.
-2.	Write the Basic Prompt: Start with a simple description of the primary elements in the Video (e.g., "A sunset over a mountain range").
-3.	Refine and Add Details: Improve the prompt by incorporating specifics like colors, shapes, textures, and style (e.g., "A sunset over purple mountains, with a golden sky and a calm river flowing through the valley").
-4.	Use the Selected Tool: Choose an Video generation model (e.g., DALL·E, Stable Diffusion, or MidJourney) and input the refined prompt.
-5.	Iterate and Adjust: If the initial result isn't quite right, adjust the prompt further based on the differences observed between the generated and original Video.
-6.	Save and Document: Save the generated Video and document your prompt alongside any observations on how the output compares to the original.
+# Procedure
+# Example Video 1: Rainy City Street (Night Motion Scene)
+Analyze the Video
+* Objects: People walking, umbrellas, cars moving
+* Colors: Neon blue, red reflections on wet roads
+* Lighting: Night-time with artificial lights
+* Motion: Raindrops falling, people walking, cars moving
+* Style: Cinematic / Realistic
+# Prompt Refinement
+<img width="643" height="300" alt="image" src="https://github.com/user-attachments/assets/356ffe6f-3f2d-49ab-b4bf-d1f7590ee064" />
+# Expected Generated Video Description:
 
+* Continuous rainfall
+* People walking with umbrellas
+* Moving vehicles with light reflections
+* Neon lights reflecting on wet roads
+# Comparison Report
+
+* Similarities: Rain effect, reflections, city environment
+* Differences: Motion smoothness and crowd variation
+* Adjustment: Adding “slow-motion rain and cinematic camera movement” improves output
+
+# Example Video 2: Fantasy Dragon Flying Scene
+Analyze the Video
+
+* Objects: Dragon, mountains, clouds
+* Colors: Golden sunrise, dark dragon tones
+* Lighting: Sunrise glow
+* Motion: Dragon flying, clouds moving slowly
+* Style: Fantasy / Cinematic
+
+# Prompt Refinement:
+<img width="654" height="274" alt="image" src="https://github.com/user-attachments/assets/cd9ed245-32f8-4ca8-9320-cc64da452a3f" />
+
+# Expected Generated Video Description
+
+* Dragon flying smoothly across mountains
+* Clouds drifting below
+* Warm golden sunrise lighting
+* Cinematic camera movement
+
+# Comparison Report
+
+* Similarities: Dragon, lighting, environment
+* Differences: Wing motion and cloud movement may vary
+* Adjustment: Adding “smooth animation and dynamic camera angles” improves realism
+# Tools Used:
+
+* DALL·E – for AI-based visual generation
+
+* Stable Diffusion – for flexible video generation
+
+* MidJourney – for cinematic and artistic visuals
+  
 # Deliverables:
-1.	The Original Video: Provided Video for reference.
-2.	The Final Generated Video: The Video created using your refined prompt.
-3.	Prompts Used: The text prompts created during the experiment.
-4.	Comparison Report: A report highlighting the differences and similarities between the original and generated Videos, along with any adjustments made to the prompt.
+# prompt 1:
+Original Videos:
 
+https://github.com/user-attachments/assets/0cdcce55-6133-41ef-a997-853a3866f278
+Redefined  video :
+
+https://github.com/user-attachments/assets/2dce0333-aa02-450d-b72d-e53199e8581e
+
+# prompt 2:
+original video:
+
+
+https://github.com/user-attachments/assets/3c3c2685-8989-4f4c-a552-2a2a34589d1a
+
+
+redefined video :
+
+
+https://github.com/user-attachments/assets/c0796107-9e91-47e7-9ab2-ccbfea8221f4
+
+## Prompts Used
+
+# Rainy City Scene:
+A cinematic video of a realistic night-time city street in heavy rain, glowing neon signs reflecting on wet roads, people walking with umbrellas, cars moving with headlights creating reflections, raindrops falling continuously, slow-motion effect, highly detailed, moody atmosphere, 4K quality
+
+# Fantasy Dragon Scene:
+A cinematic fantasy video of a majestic dragon flying over snowy mountains at sunrise, wings flapping slowly, glowing eyes, misty clouds moving below, golden sunlight hitting the peaks, dramatic camera movement, highly detailed, epic cinematic composition, 4K quality
+
+## Comparison Report
+
+* Generated videos closely match the original scenes in visuals and motion
+* Minor differences in animation smoothness and object movement
+* Prompt refinement significantly improved accuracy
 ## Conclusion:
-By using detailed and well-crafted prompts, text-to-Video generation models can be effective in reproducing an Video closely. The quality of the generated Video depends on how accurately the prompt describes the Video's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate Videos that closely match real-world visuals, which is useful for creative and practical applications.
+By using detailed and well-crafted prompts, text-to-video generation models can effectively reproduce videos. The quality depends on how accurately motion, lighting, and composition are described.
+
+This experiment demonstrated:
+
+* Importance of prompt refinement in video generation
+
+* Ability of AI tools to simulate motion and realistic scenes
+
+* Need for iterative improvements to achieve accurate results

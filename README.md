@@ -45,8 +45,11 @@ Analyze the Video
 * Lighting: Night-time with artificial lights
 * Motion: Raindrops falling, people walking, cars moving
 * Style: Cinematic / Realistic
+  
 # Prompt Refinement
+
 <img width="643" height="300" alt="image" src="https://github.com/user-attachments/assets/356ffe6f-3f2d-49ab-b4bf-d1f7590ee064" />
+
 # Expected Generated Video Description:
 
 * Continuous rainfall
